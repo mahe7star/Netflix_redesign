@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 10px;
+}
+.f-13{
+    font-size: 13px;
+}
+.btn-red{
+    background: #ff2020;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 0 0 35px rgba(255, 31, 31, 0.529);
+}
+.btn-black{
+    background: #000;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+.btn-round{
+    border-radius: 25px;
+    border: none;
+    padding: 9px 20px;
+}
+.navbar{
+    padding: 15px 0 !important;
+    border-bottom: 2px solid rgba(255,255,255,0.25);
+}
+.nav-ul{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    align-items: center;
+    margin-bottom: 0;
+    width: 100%;
+    justify-items: center;
+}
+.nav-li{
+    list-style-type: none;
+}
+.nav-link{
+    color: #aaa;
+    position: relative;
+}
+.link-text{
+    font-size: 14px;
+}
+.link-text::before{
+    content:'';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    bottom: -5px;
+    left:48%;
+    opacity: 0;
+}
+.link-text:hover,.link-text:focus{
+    color: #fff;
+}
+.link-text:hover::before,.link-text:focus::before{
+    opacity: 1;
+}
+.logo{
+    grid-column: 2;
+    width: 70px;
+}
+.l-1{
+    grid-column: 2
+}
+.l-2{
+    grid-column: 6
+}
+.i-1{
+    grid-column: 10
+}
+.top-section{
+    height: 100vh;
+}
+.slick-items img{
+    width: 100%;
+}
+.nav-icons{
+    width: 12px;
+}
+.slick-items{
+    position: relative;
+}
+.carousel-wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: #080808;
+}
+.slick-dots{
+    bottom: -8px;
+}
+.slick-dots li button:before{
+    border-radius: 0;
+    content: '';
+    height: 2px;
+    width: 40px;
+    background: #fff;
+}
+.slick-dots li{
+    margin: 0 20px;
+}
+.carousel-overlay{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    color: #fff;
+}
+.wrapper-overlay{
+    width: 70%
+}
+.overlay-item{
+    margin-bottom: 20px
+}
+.icon-14{
+    width: 14px!important;
+    display: inline-block!important;
+}
