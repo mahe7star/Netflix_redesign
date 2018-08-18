@@ -12,6 +12,13 @@ a{
 p{
     margin-bottom: 10px;
 }
+h6{
+    font-size: 0.9rem!important;
+}
+.mn-5{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 .f-14{
     font-size: 14px
 }
@@ -47,7 +54,7 @@ p{
     width: 100%;
     font-size: 13px;
     color: #fff;
-    padding: 7px 40px!important;
+    padding: 7px ;
 }
 .btn-round{
     border-radius: 25px;
@@ -169,7 +176,7 @@ p{
 /* landing section ends */
 
 /* trending section */
-.trending{
+.trending,.movies-sec{
     background: #0d0d10;
 }
 .trends-topbar{
@@ -192,20 +199,22 @@ p{
     bottom: -20px;
     left:48%;
 }
-.category-carousel .slick-slide{
-    padding: 0 15px;
+.category-carousel .slick-slide,.movie-category-carousel .slick-slide{
+    padding: 0 15px 0 0;
 }
-.slick-prev:before{
+.category-carousel .slick-prev:before,.movie-category-carousel .slick-prev:before{
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900; 
     content: "\f053";
     font-size:13px;
+    color: #888;
 }
-.slick-next:before{
+.category-carousel .slick-next:before,.movie-category-carousel .slick-next:before{
     font-family: "Font Awesome 5 Free"; 
     font-weight: 900; 
     content: "\f054";
     font-size:13px;
+    color: #888;
 }
 .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before{
     opacity: 0;
@@ -214,7 +223,7 @@ p{
     padding: 35px 0;
 }
 .movie-img{
-    width: 170px;
+    width: 160px;
     box-shadow: 0px 10px 40px #010101;
 }
 .card-ico{
@@ -232,10 +241,12 @@ p{
 .card-label{
     font-size: 12px;
     font-weight: bold;
-    padding: 25px 0
+    padding: 25px 0 40px
 }
 .trending-items{
     outline: none;
+    display: grid;
+    justify-items: center;
 }
 .trending-carousel .slick-prev{ 
     left: 0px;
@@ -266,3 +277,23 @@ p{
     content: "\f053";
     font-size:20px;   
 }
+/* trending section ends */
+/* movies div starts */
+.movies-sec{
+
+}
+.movies-body{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    padding: 35px 0;
+}
+.btn-add{
+    background: #1d1d1d;
+    color: #fff;
+    padding: 12px 19px;
+    border: none;
+    border-radius: 25px;
+    display: grid;
+    margin: 0 auto;
+}
+/* movies div ends */

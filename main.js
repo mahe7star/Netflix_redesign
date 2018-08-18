@@ -10,6 +10,7 @@ $(function() {
         slidesToScroll: 1,
         infinite: false,
     });
+
     $('.trending-carousel').slick({
         centerMode: true,
         centerPadding: '60px',
@@ -35,5 +36,10 @@ $(function() {
             }
           }
         ]
-    })
+    });
+    $('.movie-category-carousel').slick({
+        slidesToShow: 7,
+        slidesToScroll: 1,
+        infinite: false,
+    });
 });
