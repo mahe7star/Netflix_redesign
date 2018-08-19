@@ -13,7 +13,8 @@ $(function () {
     dots: true,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 8000
+    pauseOnHover: false,
+    autoplaySpeed: 5000
   });
   $('.category-carousel').slick({
     slidesToShow: 7,
