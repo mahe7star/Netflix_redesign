@@ -68,6 +68,12 @@ h6{
     padding: 15px 0 !important;
     border-bottom: 2px solid rgba(255,255,255,0.25);
 }
+.affix {
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 9999 !important;
+}
 .nav-ul{
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -224,6 +230,7 @@ h6{
 }
 .movie-img{
     width: 160px;
+    border-radius: 7px;
     box-shadow: 0px 10px 40px #010101;
 }
 .card-ico{
