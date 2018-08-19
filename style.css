@@ -474,4 +474,15 @@ input[type='range']::-webkit-slider-thumb {
     .i-1{
         grid-column: 7
     }
+    .sec-title-div{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .sec-title::before{
+        display: none;
+    }
+    .mn-5{
+        margin-left:5px;
+        margin-right: 5px;
+    }
 }

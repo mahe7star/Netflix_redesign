@@ -20,6 +20,23 @@ $(function () {
     slidesToShow: 7,
     slidesToScroll: 1,
     infinite: false,
+    responsive: [{
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      }
+    ]
   });
 
   $('.trending-carousel').slick({
@@ -42,7 +59,7 @@ $(function () {
           arrows: false,
           centerMode: true,
           centerPadding: '40px',
-          slidesToShow: 1
+          slidesToShow: 2
         }
       }
     ]
