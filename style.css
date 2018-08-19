@@ -265,6 +265,8 @@ h6{
     outline: none;
     display: grid;
     justify-items: center;
+    position: relative;
+    cursor: pointer;
 }
 .trending-carousel .slick-prev{ 
     left: 0px;
@@ -313,6 +315,10 @@ h6{
     border-radius: 25px;
     display: grid;
     margin: 0 auto;
+    cursor: pointer;
+}
+.btn-add:focus{
+    outline: none
 }
 .dropdown-menu{
     background: #1d1d1d;
@@ -350,5 +356,69 @@ input[type='range']::-webkit-slider-thumb {
     height: 15px;
     width: 15px;
     border-radius: 50%;
+}
+.movie-des{
+    position: absolute;
+    left: 50;
+    right: 15px;
+    bottom: -450px;
+    z-index: 10;
+    display: none;
+}
+.show{
+    display: block;
+}
+.movie-des img{
+    width: 1155px;
+}
+.des-wrapper{
+    position: relative;
+}
+#close{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: #fff;
+}
+.more-list{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+.more-list ul{
+
+}
+.more-li{
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 15px;
+    color:rgba(170, 170, 170, 0.61);
+    font-weight: bold;
+    position: relative;
+}
+.active.more-li{
+    color: #fff;
+}
+.active.more-li::before{
+    content:'';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    bottom: -15px;
+    left:48%;
+}
+.more-li img{
+    width: 20px
+}
+.age-limit{
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 5px;
+    background: #ce9c0a;
+    font-size: 12px;
+    margin-bottom: 15px;
 }
 /* movies div ends */
