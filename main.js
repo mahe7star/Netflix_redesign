@@ -117,8 +117,13 @@ $(function () {
     $(this).toggleClass('active');
   });
 
-  $('.trending-items').click(function(){
-    $(this).find('.movie-des').toggleClass('show');
-  })
+  $('.movie-wrap').click(function(){
+    const parent =  $(this).closest('.trending-items');
+    parent.find('.movie-des').addClass('show');
+  });
+  $('#close').click(function(){
+    const parent =  $(this).closest('.trending-items');
+    parent.find('.movie-des').removeClass('show');
+  });
 
 });
