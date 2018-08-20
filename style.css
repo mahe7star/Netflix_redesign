@@ -458,8 +458,14 @@ input[type='range']::-webkit-slider-thumb {
     bottom: 10px;
     right: 30px;
 }
-
-.more-list ul {}
+.input-search{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+}
 
 .more-li {
     list-style: none;
