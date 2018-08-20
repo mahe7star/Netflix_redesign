@@ -12,7 +12,7 @@ $(function () {
   $('.slick-car').slick({
     dots: true,
     arrows: false,
-    // autoplay: true,
+    autoplay: true,
     pauseOnHover: false,
     autoplaySpeed: 5000
   });
