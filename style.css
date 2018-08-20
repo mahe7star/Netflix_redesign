@@ -713,3 +713,9 @@ input[type='range']::-webkit-slider-thumb {
         display: block
     }
 }
+
+@media screen and (max-width:360px) {
+    strong.f-14{
+        font-size: 11px;
+    }
+} 
