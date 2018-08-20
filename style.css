@@ -733,6 +733,18 @@ input[type='range']::-webkit-slider-thumb {
     .bottom-bar{
         display: block
     }
+    .movies-sec .trends-topbar{
+        padding-top:0px;
+    }
+    .trending-carousel{
+        padding-bottom: 0;
+    }
+    .movies-body{
+        padding-bottom: 0;
+    }
+    .add-more{
+        margin-bottom: 20px
+    }
 }
 
 @media screen and (max-width:360px) {
