@@ -700,7 +700,7 @@ input[type='range']::-webkit-slider-thumb {
     }
     .sec-title-div {
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
     .sec-title::before {
         display: none;
@@ -742,13 +742,19 @@ input[type='range']::-webkit-slider-thumb {
         padding-top:0px;
     }
     .trending-carousel{
-        padding-bottom: 0;
+        padding: 0;
     }
     .movies-body{
         padding-bottom: 0;
     }
     .add-more{
         margin-bottom: 20px
+    }
+    .sec-title-div img{
+        width: 20px!important;
+    }
+    .sec-title{
+        font-size: 1.3rem
     }
 }
 
