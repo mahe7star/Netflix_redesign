@@ -44,7 +44,18 @@ $(function () {
     centerPadding: '60px',
     slidesToShow: 6,
     arrows: true,
-    responsive: [{
+    
+    responsive: [
+      {
+        breakpoint: 886,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 5
+        }
+      },
+      {
         breakpoint: 768,
         settings: {
           arrows: false,
