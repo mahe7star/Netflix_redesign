@@ -166,9 +166,9 @@ h6 {
     grid-column: 10
 }
 
-.top-section {
+/* .top-section {
     height: 100vh;
-}
+} */
 
 .slick-items img {
     width: 100%;
@@ -183,11 +183,11 @@ h6 {
 }
 
 .carousel-wrapper {
-    position: absolute;
+    /* position: absolute;
     left: 0;
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100vh; */
     background: #080808;
 }
 
@@ -230,7 +230,7 @@ h6 {
 }
 
 .carousel-img {
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 /* landing section ends */
@@ -244,7 +244,7 @@ h6 {
 }
 
 .trends-topbar {
-    padding: 40px 0 30px;
+    padding: 0px 0 30px;
     position: relative;
     border-bottom: 3px solid rgba(119, 119, 119, 0.26);
 }
